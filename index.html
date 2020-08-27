@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=5">
+
+    <title>2017 New York State Crime by County</title>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <!-- jQuery and Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3-scale.v2.min.js"></script>
+    <!-- topojson -->
+    <script src="http://d3js.org/topojson.v2.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
+</head>
+<body>
+<!-- ***New Container*** -->
+<div class="overall-container">
+<div class="panel panel-default">
+
+<div class ="panel-heading">
+<div class="header">
+    <h1>2017 New York State Crime by County</h1>
+</div>
+</div>
+
+<!-- One Bootstrap Card Component -->
+<div class="panel-body">
+<div class="row">
+<div class="col-sm-12">
+    <div class="card">
+        <div class="card-body">
+            <h3><p>Total Overall Crimes</p></h3>
+            <p>(Mouseover for County Name and Crime Total)</p>
+            <svg class="totals" width="900" height="900"></svg>
+            <div id="legend1"></div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- End of One Bootstrap Card Component -->
+
+<!-- ***End of Container*** -->
+
+<!-- ***New Container*** -->
+<div class="overall-container">
+<div class="panel panel-default">
+
+<div class ="panel-heading">
+    <div class="header">
+        <h1>How Safe is Upstate New York?</h1>
+    </div>
+</div>
+
+<!-- One Bootstrap Card Component -->
+<div class="panel-body">
+<div class="col-sm-12">
+<div class="card">
+    <div class="card-body">
+        <ul class="list-group">
+            <!-- see 53percentofcrimeisoutsideofnyc.csv in the datafiles folder for calculation of this fact -->
+            <li class="list-group-item"><pa>53%</pa> of all NYS crime occurs outside of New York City.</li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+<!-- End of One Bootstrap Card Component -->
+
+<!-- One Bootstrap Card Component in a Row -->
+<div class="panel-body">
+<div class="col-sm-12">
+<div class="card">
+    <div class="card-body">
+        <canvas id="tripleBarChart"></canvas>
+    </div>
+</div>
+</div>
+</div>
+<!-- End of One Bootstrap Card Component in a Row -->
+
+<!-- One Bootstrap Card Component -->
+<div class="panel-body">
+<div class="col-sm-12">
+<div class="card">
+    <div class="card-body">
+        <ul class="list-group">
+            <!-- see OverallPoliceSpendingandPopulationSize.csv in the datafiles folder for this information -->
+            <li class="list-group-item"><r>Erie</r> is the <ji>most</ji> <la>dangerous</la> county in Upstate NY and spends <rl>28USD</rl> per resident on police services.</li>
+            <li class="list-group-item"><r1>Hamilton</r1> is the <od>safest</od> county in Upstate NY and spends <bk>148USD</bk> per resident on police services.</li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+<!-- End of One Bootstrap Card Component -->
+
+<div class="panel-footer">
+<div class="footer">
+    <p>Created By: Jill Platts</p>
+    <hr>
+    <p>Source(s):</p>
+    <p><a href="https://catalog.data.gov/dataset/index-crimes-by-county-and-agency-beginning-1990" target="_blank">Data used for Choropleth Map and Bar Graph</a></p>
+    <p><a href="https://www.seethroughny.net/benchmarking/local-government-spending-and-revenue#" target="_blank">Additional Data used for Bar Graph</a></p>
+    <p><a href="https://github.com/deldersveld/topojson/blob/master/countries/us-states/NY-36-new-york-counties.json" target="_blank">New York Map</a></p>
+    <hr>
+    <h5>*All NYC boroughs (counties) were excluded from the bar chart, including Kings, New York, Bronx, Queens and Richmond.</h5>
+</div>
+</div>
+</div>
+</div>
+<!-- ***End of Container*** -->
+
+<script type="text/javascript" src="mainMap.js"></script>
+<script type="text/javascript" src="triplebarchart.js"></script>
+<script type="text/javascript" src="fontStyles/fontFacts.js"></script>
+<script type="text/javascript" src="fontStyles/fontFacts1.js"></script>
+<script type="text/javascript" src="fontStyles/fontFacts2.js"></script>
+<script type="text/javascript" src="fontStyles/fontFacts3.js"></script>
+<script type="text/javascript" src="fontStyles/fontFacts4.js"></script>
+<script type="text/javascript" src="fontStyles/fontFacts5.js"></script>
+<script type="text/javascript" src="fontStyles/fontFacts6.js"></script>
+<script type="text/javascript" src="fontStyles/fontFacts7.js"></script>
+</body>
+</html>

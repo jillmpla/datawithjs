@@ -1,0 +1,101 @@
+body {
+    font-size: 5rem;
+}
+
+.overall-container {
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    color: #18216B;}
+    .link { color: #18216B; }
+    .link:hover { color: #203686; }
+
+.header {
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+    text-align: center;
+    color: #11174B;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.footer {
+    font-family: 'Oxygen', sans-serif;
+    color: #11174B;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    Font-Size: 44px;
+    color: #18216B;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: #000000;
+}
+
+path {
+    stroke: white;
+    stroke-opacity: 1.5;
+    stroke-width: 1.5;
+}
+path:hover {
+    fill-opacity: 0.7;
+}
+
+.axis path, .axis line {
+    font: 10px sans-serif;
+    fill: none;
+    stroke: #11174B;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font: 10px sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    fill: #000;
+}
+
+svg{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+ul {
+    font-family: 'Oxygen', sans-serif;
+    color: #18216B;
+    vertical-align: middle;
+    font-size: 2em;
+    list-style: none;
+    margin: 2em;
+    padding: 0;
+}
+ul li {
+    text-align: center;
+}
+
+span{
+    color: #3E94C0;
+    font-size: 1.7em;
+    font-family: 'Oxygen', sans-serif;
+}
