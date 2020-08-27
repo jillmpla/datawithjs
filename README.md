@@ -1,4 +1,4 @@
-<a href="http://jillpla.com/datawithjs/">2017 New York State Crime by County</a>
+-><a href="http://jillpla.com/datawithjs/">2017 New York State Crime by County</a><-
 
 Using two popular JavaScript libraries for producing web-based data visualizations, D3.js and Chart.js, I created a visualization on crime in New York State, with a focus on crime outside of New York City. Divided by counties, the datasets used were gathered over the course of 2017 and encompass the violent crimes of murder/non-negligent manslaughter, forcible rape, robbery and aggravated assault, as well as the property crimes of burglary, larceny and motor vehicle theft. Primary visualization methods used include a choropleth map and a bar graph.
 <br>
