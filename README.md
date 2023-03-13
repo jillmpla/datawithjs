@@ -20,12 +20,15 @@ Note: For the purpose of this visualization, the arbitrary term 'Upstate New Yor
     <td>Libre Baskerville</td> 
   <tr>
     <td>D3.js v. 4</td>
+    <td></td>
   </tr>
     <tr>
     <td>TopoJSON v. 2</td>
+    <td></td>
   </tr>
     <tr>
     <td>Chart.js 2.7.3</td>
+    <td></td>
   </tr>
 </table>
 <hr>
