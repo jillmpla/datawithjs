@@ -38,5 +38,3 @@ Note: For the purpose of this visualization, the arbitrary term 'Upstate New Yor
 <br>
 <a href="https://www.seethroughny.net/benchmarking/local-government-spending-and-revenue#">New York's Local Government Spending & Revenue database</a>
 <br>
-<br>
-<i>Future Work: Make map responsive.</i>
