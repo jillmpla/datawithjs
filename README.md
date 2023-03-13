@@ -34,3 +34,6 @@ Note: For the purpose of this visualization, the arbitrary term 'Upstate New Yor
 <a href="https://catalog.data.gov/dataset/index-crimes-by-county-and-agency-beginning-1990">Index Crimes by County and Agency: Beginning 1990</a>
 <br>
 <a href="https://www.seethroughny.net/benchmarking/local-government-spending-and-revenue#">New York's Local Government Spending & Revenue database</a>
+<br>
+<br>
+<i>Future Work: Make map responsive.</i>
